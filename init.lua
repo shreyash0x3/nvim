@@ -26,7 +26,6 @@ local opts = {}
 
 require("lazy").setup("plugins")
 require("catppuccin").setup()
-vim.cmd.colorscheme "catppuccin"
 
 local builtin = require("telescope.builtin")
 local config = require("nvim-treesitter.configs")
